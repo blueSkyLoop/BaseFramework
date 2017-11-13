@@ -1,0 +1,1 @@
+../../../IDMPhotoBrowser+WeChat/Classes/IDMTapDetectingImageView.h

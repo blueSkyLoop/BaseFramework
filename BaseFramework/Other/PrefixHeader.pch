@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  BaseFramework
+//
+//  Created by Mantis-man on 16/1/7.
+//  Copyright © 2016年 Mantis-man. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+#define OOLog(...) NSLog(__VA_ARGS__)
+// 打印调试
+#define OOLogFunc OOLog(@"%s", __func__)
+#else
+#define OOLog(...)
+#define OOLogFunc
+#endif
+
+/** 定义宏 **/
+#import "Macros.h"
+
+/** 常量 **/
+#import "Const.h"
+
+/** 分类 **/
+#import "UIView+Extend.h"
+#import "UIImage+Extend.h"
+
+
+#endif /* PrefixHeader_pch */
+

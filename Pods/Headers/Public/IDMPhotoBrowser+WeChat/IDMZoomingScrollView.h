@@ -1,0 +1,1 @@
+../../../IDMPhotoBrowser+WeChat/Classes/IDMZoomingScrollView.h

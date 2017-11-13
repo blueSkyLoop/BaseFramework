@@ -1,0 +1,1 @@
+../../../IDMPhotoBrowser+WeChat/Classes/IDMPhotoBrowser.h
